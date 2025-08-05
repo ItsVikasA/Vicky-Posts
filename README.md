@@ -147,7 +147,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Vikas**
 - GitHub: [@ItsVikasA](https://github.com/ItsVikasA)
-- LinkedIn: [Connect with me](https://linkedin.com/in/yourprofile)
+- LinkedIn: [Connect with me](https://linkedin.com/in/Vikas028)
 
 ## 🙏 Acknowledgments
 
