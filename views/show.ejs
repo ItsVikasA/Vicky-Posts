@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post Details - Vicky Posts</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Post Details</h2>
+    
+    <div class="post">
+      <p><strong>Post ID:</strong> <%= post.id %></p>
+      <h3 class="user">@<%= post.username %></h3>
+      <h4 class="content"><%= post.content %></h4>
+      
+      <a href="/posts/<%= post.id %>/edit">Edit Post</a>
+      <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
+        <button onclick="return confirm('Are you sure?')">Delete Post</button>
+      </form>
+    </div>
+    
+    <div style="margin-top: 20px;">
+      <a href="/posts">← Back to Posts</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post - Vicky Posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Create New Post</h2>
+        
+        <div class="form-container">
+            <form method="post" action="/posts">
+                <input type="text" name="username" placeholder="Enter your username" required />
+                <textarea name="content" placeholder="What's on your mind?" required></textarea>
+                <button type="submit">Share Post</button>
+            </form>
+            
+            <div style="margin-top: 15px;">
+                <a href="/posts">← Back to Posts</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
